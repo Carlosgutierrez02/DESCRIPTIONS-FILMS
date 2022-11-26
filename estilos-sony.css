@@ -1,0 +1,170 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 55px;
+    color: rgb(158, 0, 0);
+}
+
+.titulo:hover {
+    transform: scale(1.1);
+    text-align: center;
+    font-size: 55px;
+    color: rgb(158, 0, 0);
+}
+
+.sipnosis {
+    margin: 10px;
+    font-size: 25px;
+    color: black;
+    display: block;
+}
+
+.info {
+    text-align: center;
+    margin-left: 10px;
+    font-size: 39px;
+    color: rgb(121, 0, 0);
+}
+
+.img {
+    display: flex;
+}
+
+.bloodimg {
+    margin-left: 50px;
+    width: 400px;
+    height: 550px;
+}
+
+.link {
+    color: red;
+    background-color: transparent;
+}
+
+a {
+    color: transparent;
+}
+
+
+mark {
+    font-weight: bold;
+    color: rgb(148, 5, 5);
+    background-color: transparent;
+}
+
+ol {
+    font-size: 25px;
+}
+
+footer {
+    text-align: center;
+    display: flex;
+    color: rgb(189, 189, 189);
+    background: rgb(5, 0, 64);
+}
+
+.descriptions {
+    margin-block: 16px;
+    margin-inline-start: 940px;
+    width: 120px;
+    height: 120px;
+}
+
+.descriptions:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.redes {
+    margin-block: 2px;
+    width: 50px;
+    height: 50px;
+}
+
+.infofooter {
+    margin: 10%;
+    font-size: 16px;
+}
+
+.pagina-modal {
+    display: none;
+    width: 100%;
+    height: 100vh;
+    background-color: #595a5965;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    overflow: auto;
+    margin: auto;
+}
+
+.modal {
+    border-radius: 20px;
+    position: -webkit-sticky;
+    width: 50%;
+    height: 70%;
+    background: rgb(5, 0, 64);
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    margin: auto;
+    padding: 25px;
+}
+
+.cerrar {
+    border-radius: 20px;
+    color: white;
+    position: relative;
+    top: -500px;
+    left: 346px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.cerrar:hover {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.texto-modal {
+    font-size: 22px;
+    color: rgb(141, 141, 141);
+}
+
+.titulo-modal {
+    color: rgb(137, 137, 137);
+    font-size: 40px;
+    -webkit-text-stroke: 1.0px black;
+}
+
+.estilomodal {
+    font-size: 22px;
+    color: rgb(141, 141, 141);
+}
+
+.nombres {
+    font-weight: bold;
+    color: white;
+}
+
+a:hover {
+    transform: scale(1.1);
+}
+
+ol {
+    padding: 0;
+    margin: 50px;
+    font-size: 25px;
+}
+
+p {
+    margin: 60px;
+}

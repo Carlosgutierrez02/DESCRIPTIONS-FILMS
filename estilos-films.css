@@ -1,0 +1,301 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+section {
+    text-align: center;
+}
+
+main {
+    background: rgb(5, 0, 64);
+}
+
+.inicio {
+    margin-block: 1%;
+    color: rgb(175, 175, 175);
+    font-size: 50px;
+    margin-inline: 40%;
+    background-color: transparent;
+}
+
+.titulo {
+    display: flex;
+}
+
+.nav {
+   margin-left: 10px; 
+    margin-top: 23px;
+    cursor: pointer;
+    width: 105px;
+    height: 105px;
+}
+
+.texto {
+    margin: 50px;
+    font-size: 25px;
+}
+
+.marvel {
+    align-items: center;
+    margin-top: 29px;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.marvelimg {
+    width: auto;
+    height: 250px;
+}
+
+.info {
+    font-size: 15px;
+    margin: 55px;
+}
+
+.boton {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.marvel:hover {
+    transform: scale(1.1);
+}
+
+.foto {
+    width: 500px;
+    height: 300px;
+}
+
+.netflix {
+    width: auto;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+}
+
+.fotonetflix {
+    height: 400px;
+}
+
+.netflix:hover {
+    transform: scale(1.1);
+}
+
+mark {
+    font-weight: bold;
+    color: rgb(9, 1, 62);
+    background-color: transparent;
+}
+
+.sonyimg {
+    width: auto;
+    height: 350px;
+}
+
+.sony {
+    background-color: rgb(255, 255, 255);
+}
+
+.sony:hover {
+    transform: scale(1.1);
+}
+
+.centuryimg {
+    width: auto;
+    height: 320px;
+}
+
+
+.century {
+    background-color: rgb(255, 255, 255);
+}
+
+.century:hover {
+    transform: scale(1.1);
+}
+
+a {
+    color: transparent;
+}
+
+footer {
+    text-align: center;
+    display: flex;
+    color: rgb(189, 189, 189);
+    background: rgb(5, 0, 64);
+}
+
+.ol1 {
+    margin: -5px;
+    padding: 0;
+}
+
+.redes-footer {
+    display: flex;
+
+}
+
+.descriptions {
+    margin-block: 16px;
+    margin-inline-start: 940px;
+    width: 120px;
+    height: 120px;
+}
+
+.descriptions:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.redes {
+    margin-block: 2px;
+    width: 50px;
+    height: 50px;
+}
+
+.infofooter {
+    margin: 10%;
+    font-size: 16px;
+}
+
+body {
+    background-color: rgba(255, 255, 255, 0.158);
+}
+
+.pagina-modal {
+    display: none;
+    width: 100%;
+    height: 100vh;
+    background-color: #595a5965;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    overflow: auto;
+    margin: auto;
+}
+
+.modal {
+    border-radius: 20px;
+    position: -webkit-sticky;
+    width: 55%;
+    height: 50%;
+    background: rgb(5, 0, 64);
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    margin: auto;
+    padding: 25px;
+
+}
+
+.pagina-modal2 {
+    display: none;
+    width: 100%;
+    height: 100vh;
+    background-color: #595a5986;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    overflow: auto;
+    margin: auto;
+}
+
+.modal2 {
+    border-radius: 20px;
+    width: 33%;
+    height: 50%;
+    background: rgb(5, 0, 64);
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    margin: auto;
+    padding: 25px;
+
+}
+
+.cerrar {
+    border-radius: 20px;
+    color: white;
+    position: relative;
+    top: -330px;
+    left: 378px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.cerrar:hover {
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.cerrar2 {
+    color: white;
+    position: relative;
+    top: -353px;
+    left: 230px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.cerrar2:hover {
+    border-radius: 30px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.texto-modal {
+    font-size: 22px;
+    color: rgb(141, 141, 141);
+}
+
+.titulo-modal {
+    color: rgb(137, 137, 137);
+    font-size: 40px;
+    -webkit-text-stroke: 1.0px black;
+}
+
+.estilomodal {
+    font-size: 22px;
+    color: rgb(141, 141, 141);
+}
+
+.nombres {
+    font-weight: bold;
+    color: white;
+}
+
+.nombres1 {
+    margin: -80px;
+    font-weight: bold;
+    color: white;
+}
+
+.texto-modal2 {
+    font-size: 30px;
+    color: rgb(141, 141, 141);
+}
+
+.titulo-modal2 {
+    color: rgb(255, 0, 0);
+    font-size: 50px;
+    -webkit-text-stroke: 1.0px black;
+}
+
+ol {
+    font-size: 22px;
+    color: rgb(141, 141, 141);
+}
+
+a:hover {
+    transform: scale(1.1);
+}
